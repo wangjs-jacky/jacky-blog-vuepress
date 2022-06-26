@@ -4,6 +4,10 @@ module.exports = [
     text: "技术随笔",
     link: "/essays/",
     items: [
+      {
+        text: "前端学习计划",
+        link: "https://www.notion.so/f976f43adc754ac5a2f4e9a520667e28",
+      },
       { text: "技术随笔", link: "/pages/004a81/" },
       { text: "转载文章", link: "/pages/850fc5/" },
       { text: "包管理工具", link: "/pages/09f388/" },
@@ -45,22 +49,18 @@ module.exports = [
     text: "CheetSheet",
     link: "/cheetSheet/",
     items: [
+      { text: "npm-cli", link: "https://docs.npmjs.com/cli/v6/commands" },
       {
-        text: "npm",
-        items: [
-          { text: "cli", link: "https://docs.npmjs.com/cli/v6/commands" },
-          {
-            text: "package.json",
-            link:
-              "https://docs.npmjs.com/cli/v6/configuring-npm/package-json#directories",
-          },
-          {
-            text: "shorthands",
-            link:
-              "https://docs.npmjs.com/cli/v8/using-npm/config#shorthands-and-other-cli-niceties",
-          },
-        ],
+        text: "npm-package.json",
+        link:
+          "https://docs.npmjs.com/cli/v6/configuring-npm/package-json#directories",
       },
+      {
+        text: "npm-shorthands",
+        link:
+          "https://docs.npmjs.com/cli/v8/using-npm/config#shorthands-and-other-cli-niceties",
+      },
+      { text: "在线API文档", link: "https://devdocs.io/" },
       { text: "json", link: "/pages/ddaeb3/" },
       { text: "nrm", link: "/pages/6a6b62/" },
       { text: "Array", link: "/pages/1f18e1/" },
@@ -74,17 +74,76 @@ module.exports = [
       {
         text: "前端",
         items: [
-          { text: "《图解HTTP》", link: "https://ppsteven.github.io/pages/c9e990/", },
+          {
+            text: "《图解HTTP》",
+            link: "https://ppsteven.github.io/pages/c9e990/",
+          },
           { text: "《ES6标准入门》", link: "https://es6.ruanyifeng.com/" },
-          { text: "《现代JavaScript教程》", link: "https://zh.javascript.info/" },
+          {
+            text: "《现代JavaScript教程》",
+            link: "https://zh.javascript.info/",
+          },
           { text: "《深入浅出Webpack》", link: "https://webpack.wuhaolin.cn/" },
           { text: "小茗同学", link: "http://blog.haoji.me/" },
           { text: "阮一峰-网道", link: "https://wangdoc.com/" },
-          { text: "博客-程序员山月-Daily", link: "https://github.com/shfshanyue/Daily-Question" },
+          {
+            text: "博客-程序员山月-Daily",
+            link: "https://github.com/shfshanyue/Daily-Question",
+          },
           { text: "博客-全栈潇晨", link: "https://xiaochen1024.com/" },
           { text: "codePen", link: "https://codepen.io/" },
-          { text: "DigitalOcean", link: "https://www.digitalocean.com/community" },
-          { text: "underscore源码", link: "https://underscorejs.net/"}
+          {
+            text: "DigitalOcean",
+            link: "https://www.digitalocean.com/community",
+          },
+          { text: "underscore源码", link: "https://underscorejs.net/" },
+          {
+            text: "在线分析项目中的Node依赖",
+            link: "https://npm.devtool.tech/",
+          },
+          { text: "小浩算法", link: "https://www.geekxh.com" },
+          {
+            text: "labuladong的算法小抄",
+            link: "https://labuladong.github.io/",
+          },
+          { text: "力扣solution", link: "http://leetcode-solution.cn/" },
+          { text: "HackerRank", link: "https://www.hackerrank.com/" },
+          { text: "代码随想录", link: "https://programmercarl.com/" },
+          {
+            text: "study with BGM",
+            link:
+              "https://www.notion.so/Study-with-BGM-514787e9455a4e688100cb35fd0e6554",
+          },
+          { text: "印记中文", link: "https://docschina.org/" },
+          { text: "tool.lu", link: "https://tool.lu/" },
+          {
+            text: "css easeing 库",
+            link: "https://xuanfengge.com/easeing/ceaser/",
+          },
+          { text: "rough.js", link: "https://xuanfengge.com/rough-js.html" },
+          { text: "npm trend", link: "https://www.npmtrends.com/" },
+          { text: "find npm ", link: "https://snyk.io/advisor/" },
+          { text: "css网站收集", link: "/pages/81a79d/" },
+          {
+            text: "优秀博客1",
+            link: "https://juejin.cn/user/254742429175352/posts",
+          },
+          {
+            text: "优秀博客2-umi",
+            link: "https://www.zhihu.com/people/song-meng-xiang-95/posts",
+          },
+          {
+            text: "蜡笔小伟",
+            link: "https://www.jianshu.com/u/491bd4155f96",
+          },
+          {
+            text: "自顶向下学 React 源码",
+            link: "https://ke.segmentfault.com/mine",
+          },
+          {
+            text: "淘系前端：冴羽-underscore系列|ts系列(中国最好)",
+            link: "https://github.com/mqyqingfeng/Blog"
+          }
         ],
       },
       {
@@ -112,9 +171,7 @@ module.exports = [
   {
     text: "收藏",
     link: "/pages/5f8056/",
-    items: [
-      { text: "网站", link: "/pages/5f8056/" },
-    ],
+    items: [{ text: "网站", link: "/pages/5f8056/" }],
   },
   // {
   //   text: 'MORE',
