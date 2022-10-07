@@ -31,6 +31,22 @@ module.exports = [
         text: "前端工程化",
         items: [{ text: "Wepack", link: "/pages/4eddae/" }],
       },
+      {
+        text: "React源码",
+        items: [{ text: "React源码", link: "/pages/cb4228/" }],
+      },
+      {
+        text: "前端部署系列",
+        items: [{ text: "前端部署", link: "" }],
+      },
+    ],
+  },
+  {
+    text: "项目",
+    link: "/cases/",
+    items: [
+      { text: "项目展示", link: "/pages/ec6dd3/" },
+      { text: "First Project", link: "/pages/4b197e/" },
     ],
   },
   {
@@ -142,7 +158,27 @@ module.exports = [
           },
           {
             text: "淘系前端：冴羽-underscore系列|ts系列(中国最好)",
-            link: "https://github.com/mqyqingfeng/Blog"
+            link: "https://github.com/mqyqingfeng/Blog",
+          },
+          {
+            text: "前端精读周刊:各种精读系列",
+            link: "https://github.com/ascoders/weekly",
+          },
+          {
+            text: "一文吃透系列",
+            link: "https://juejin.cn/post/6944863057000529933",
+          },
+          {
+            text: "nginx【B站视频】",
+            link: "https://www.bilibili.com/video/BV1LY411M74k"
+          },
+          {
+            text: "jest测试手册",
+            link: "http://github.yanhaixiang.com/jest-tutorial/basic/getting-started"
+          },
+          {
+            text: "优质博客",
+            link: "https://blog.cjw.design/blog/algorithm/sort"
           }
         ],
       },
