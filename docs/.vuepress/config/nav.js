@@ -36,6 +36,10 @@ module.exports = [
         items: [{ text: "React源码", link: "/pages/cb4228/" }],
       },
       {
+        text: "组件库封装",
+        items: [{ text: "组件库", link: "/pages/b62cdd/" }]
+      },
+      {
         text: "前端部署系列",
         items: [{ text: "前端部署", link: "" }],
       },
@@ -46,6 +50,7 @@ module.exports = [
     link: "/cases/",
     items: [
       { text: "项目展示", link: "/pages/ec6dd3/" },
+      { text: "案例中心", link: "https://wangjs-jacky.github.io/jacky-workspace-html/" },
       { text: "First Project", link: "/pages/4b197e/" },
     ],
   },
@@ -65,7 +70,15 @@ module.exports = [
     text: "CheetSheet",
     link: "/cheetSheet/",
     items: [
-      { text: "npm-cli", link: "https://docs.npmjs.com/cli/v6/commands" },
+      { text: "docker教程", link: "https://www.mubucm.com/doc/jZ6j8HMYWY" },
+      { text: "git-常用指令", link: "https://www.mubucm.com/doc/zCpTjqTTqY" },
+      { text: "git-教程", link: "/pages/5857b5/" },
+      { text: "yarn 指令", link: "https://www.mubucm.com/doc/OgdY8V6GQk" },
+      { text: "lerna 教程", link: "https://www.mubucm.com/doc/jJ4S1L2oaY" },
+      { text: "Nginx 指令", link: "https://www.mubucm.com/doc/7MFCsK2QGY" },
+      { text: "nvm 指令", link: "https://www.mubucm.com/doc/OoflbXC2iY" },
+      { text: "在线API文档", link: "https://devdocs.io/" },
+      /* { text: "npm-cli", link: "https://docs.npmjs.com/cli/v6/commands" },
       {
         text: "npm-package.json",
         link:
@@ -76,11 +89,11 @@ module.exports = [
         link:
           "https://docs.npmjs.com/cli/v8/using-npm/config#shorthands-and-other-cli-niceties",
       },
-      { text: "在线API文档", link: "https://devdocs.io/" },
+      
       { text: "json", link: "/pages/ddaeb3/" },
       { text: "nrm", link: "/pages/6a6b62/" },
       { text: "Array", link: "/pages/1f18e1/" },
-      { text: "git", link: "/pages/5857b5/" },
+       */
     ],
   },
   {
