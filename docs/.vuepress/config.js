@@ -5,7 +5,7 @@ module.exports = {
   description:
     '有志者、事竟成，破釜沉舟，百二秦zhi关终属楚; 苦心人、天不负，卧薪尝胆，三千越甲可吞吴。', // 描述,以 <meta> 标签渲染到页面html中
   // base: '/', // '/<github仓库名>/'， 默认'/'
-  base: '/vblog/',
+  base: '/jacky-blog-vuepress/',
   head: [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/披萨.png' }], //favicons，资源放在public文件夹
@@ -115,29 +115,29 @@ module.exports = {
     // }],
 
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-        thirdparty: [ // 可选，默认 []
-            // {
-            //     title: '在MDN中搜索',
-            //     frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-            //     behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
-            // },
-            // {
-            //     title: '在Runoob中搜索',
-            //     frontUrl: 'https://www.runoob.com/?s=',
-            // },
-            // {
-            //     title: '在Vue API中搜索',
-            //     frontUrl: 'https://cn.vuejs.org/v2/api/#',
-            // },
-            // {
-            //     title: '在Bing中搜索',
-            //     frontUrl: 'https://cn.bing.com/search?q='
-            // },
-            // {
-            //     title: '通过百度搜索本站的',
-            //     frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20'
-            // }
-        ]
+      thirdparty: [ // 可选，默认 []
+        // {
+        //     title: '在MDN中搜索',
+        //     frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+        //     behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
+        // },
+        // {
+        //     title: '在Runoob中搜索',
+        //     frontUrl: 'https://www.runoob.com/?s=',
+        // },
+        // {
+        //     title: '在Vue API中搜索',
+        //     frontUrl: 'https://cn.vuejs.org/v2/api/#',
+        // },
+        // {
+        //     title: '在Bing中搜索',
+        //     frontUrl: 'https://cn.bing.com/search?q='
+        // },
+        // {
+        //     title: '通过百度搜索本站的',
+        //     frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20'
+        // }
+      ]
     }],
 
     // 'vuepress-plugin-baidu-autopush', // 百度自动推送

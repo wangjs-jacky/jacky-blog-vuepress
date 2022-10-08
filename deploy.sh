@@ -12,13 +12,13 @@ cd ./docs/.vuepress/dist
 
 # deploy to github
 if [ -z "$GITHUB_TOKEN" ]; then
-    msg='deploy'
-    githubUrl=git@github.com:wangjs-jacky/vblog.git
+  msg='deploy'
+  githubUrl=git@github.com:wangjs-jacky/jacky-blog-vuepress.git
 else
-    msg='来自github actions的自动部署'
-    githubUrl="https://wangjs-jacky:${GITHUB_TOKEN}@github.com/wangjs-jacky/vblog.git"
-    git config --global user.name "wangjs-jacky"
-    git config --global user.email "2409277719@qq.com"
+  msg='来自github actions的自动部署'
+  githubUrl="https://wangjs-jacky:${GITHUB_TOKEN}@github.com/wangjs-jacky/jacky-blog-vuepress.git"
+  git config --global user.name "wangjs-jacky"
+  git config --global user.email "2409277719@qq.com"
 fi
 git init
 git add -A
