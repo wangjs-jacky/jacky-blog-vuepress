@@ -67,6 +67,13 @@ module.exports = [
     ],
   },
   {
+    text: "编码专题",
+    link: "/code/",
+    items: [
+      { text: "Promise专题", link: "/pages/2dd33c/" }
+    ]
+  },
+  {
     text: "CheetSheet",
     link: "/cheetSheet/",
     items: [
@@ -103,6 +110,14 @@ module.exports = [
       {
         text: "前端",
         items: [
+          {
+            text: "unocss",
+            link: "https://uno.antfu.me/"
+          },
+          {
+            text: "promise",
+            link: "https://juejin.cn/post/6999804617320038408"
+          },
           {
             text: "《图解HTTP》",
             link: "https://ppsteven.github.io/pages/c9e990/",
@@ -192,6 +207,10 @@ module.exports = [
           {
             text: "优质博客",
             link: "https://blog.cjw.design/blog/algorithm/sort"
+          },
+          {
+            text: "joi官网",
+            link: "https://joi.dev/api/?v=17.6.1"
           }
         ],
       },
