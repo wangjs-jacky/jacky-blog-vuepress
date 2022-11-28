@@ -211,6 +211,10 @@ module.exports = [
           {
             text: "joi官网",
             link: "https://joi.dev/api/?v=17.6.1"
+          },
+          {
+            text: "前端趋势",
+            link: "https://risingstars.js.org/2021/zh"
           }
         ],
       },
