@@ -85,6 +85,9 @@ module.exports = [
       { text: "Nginx 指令", link: "https://www.mubucm.com/doc/7MFCsK2QGY" },
       { text: "nvm 指令", link: "https://www.mubucm.com/doc/OoflbXC2iY" },
       { text: "在线API文档", link: "https://devdocs.io/" },
+      { text: "正则手册", link: "https://www.mubucm.com/doc/ivGX4hHh0c" },
+      { text: "nginx配置", link: "https://www.mubucm.com/doc/v9Ricxgh8c" },
+      { text: "fs-extra", link: "https://www.mubucm.com/doc/3XQLr3N-Mc" }
       /* { text: "npm-cli", link: "https://docs.npmjs.com/cli/v6/commands" },
       {
         text: "npm-package.json",
@@ -215,6 +218,10 @@ module.exports = [
           {
             text: "前端趋势",
             link: "https://risingstars.js.org/2021/zh"
+          },
+          {
+            text: "美团大佬",
+            link: "https://github.com/atqq/sugar-blog"
           }
         ],
       },
