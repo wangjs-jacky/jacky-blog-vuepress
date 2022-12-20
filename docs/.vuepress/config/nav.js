@@ -87,7 +87,9 @@ module.exports = [
       { text: "在线API文档", link: "https://devdocs.io/" },
       { text: "正则手册", link: "https://www.mubucm.com/doc/ivGX4hHh0c" },
       { text: "nginx配置", link: "https://www.mubucm.com/doc/v9Ricxgh8c" },
-      { text: "fs-extra", link: "https://www.mubucm.com/doc/3XQLr3N-Mc" }
+      { text: "fs-extra", link: "https://www.mubucm.com/doc/3XQLr3N-Mc" },
+      { text: "VSCode 调试-launch.json", link: "https://www.mubucm.com/doc/CI-7wLAOzI" },
+      { text: "Linter 上手完全指南", link: "https://www.mubucm.com/doc/zdoA0VGGkc" }
       /* { text: "npm-cli", link: "https://docs.npmjs.com/cli/v6/commands" },
       {
         text: "npm-package.json",
