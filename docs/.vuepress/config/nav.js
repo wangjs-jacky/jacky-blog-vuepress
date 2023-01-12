@@ -120,6 +120,10 @@ module.exports = [
             link: "https://uno.antfu.me/"
           },
           {
+            text: "图解 React 原理",
+            link: "https://7kms.github.io/react-illustration-series/"
+          },
+          {
             text: "promise",
             link: "https://juejin.cn/post/6999804617320038408"
           },
