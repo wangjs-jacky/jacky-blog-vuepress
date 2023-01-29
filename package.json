@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "aliOss": "node ./uploadOss.mjs",
     "deploy": "bash deploy.sh",
     "deploy2": "bash deploy-gitee.sh",
     "editFm": "node utils/editFrontmatter.js",
@@ -26,8 +27,11 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "ali-oss": "^6.17.1",
     "caniuse-lite": "^1.0.30001247",
     "nrm": "^1.2.1",
+    "p-queue": "^7.3.0",
+    "readdirp": "^3.6.0",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-latex": "^0.1.3"
   }
