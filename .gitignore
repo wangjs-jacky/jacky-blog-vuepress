@@ -13,3 +13,6 @@ docs/.vuepress/dist
 
 # 百度链接推送
 urls.txt
+
+# 注释掉 ali OSS 的 Bucket 密码
+.env

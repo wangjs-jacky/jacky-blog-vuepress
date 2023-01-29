@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/红锦鲤.png
+heroImage: img/红锦鲤.png
 heroText: Jacky's blog
 tagline: 行到水穷处，坐看云起时
 # actionText: 立刻进入 →
