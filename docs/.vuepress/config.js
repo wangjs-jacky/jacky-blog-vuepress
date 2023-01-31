@@ -1,18 +1,26 @@
 const nav = require("./config/nav.js");
 
+const isServer = process.env.NODE_ENV !== "development";
+
+const modifyWebpack = isServer
+  ? {
+      configureWebpack: config => {
+        config.output.publicPath =
+          "https://cdn-pic-wjs.oss-cn-shanghai.aliyuncs.com/";
+      },
+    }
+  : {};
+
 module.exports = {
   title: "Jacky's blog",
   description:
     "有志者、事竟成，破釜沉舟，百二秦zhi关终属楚; 苦心人、天不负，卧薪尝胆，三千越甲可吞吴。", // 描述,以 <meta> 标签渲染到页面html中
   // base: '/', // '/<github仓库名>/'， 默认'/'
   base: "/jacky-blog-vuepress/",
-  configureWebpack: config => {
-    config.output.publicPath =
-      "https://cdn-pic-wjs.oss-cn-shanghai.aliyuncs.com/";
-  },
+  ...modifyWebpack,
   head: [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ["link", { rel: "icon", href: "img/pizza.png" }], //favicons，资源放在public文件夹
+    ["link", { rel: "icon", href: "/img/pizza.png" }], //favicons，资源放在public文件夹
     [
       "meta",
       {
@@ -36,7 +44,7 @@ module.exports = {
     // 主题配置
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: "img/pizza.png", // 导航栏logo
+    logo: "/img/pizza.png", // 导航栏logo
     repo: "/wangjs-jacky", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 20, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
@@ -80,7 +88,8 @@ module.exports = {
     },
     blogger: {
       // 博主信息，显示在首页侧边栏
-      avatar: "./img/古风头像.jpg",
+      avatar:
+        "https://wjs-tik.oss-cn-shanghai.aliyuncs.com/202301311339589.jpg",
       name: "Jacky Wang",
       slogan: "行到水穷处，坐看云起时",
     },

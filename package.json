@@ -2,7 +2,7 @@
   "name": "theme-vdoing-blog",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "cross-env NODE_ENV=development vuepress dev docs",
     "build": "vuepress build docs",
     "aliOss": "node ./uploadOss.mjs",
     "deploy": "bash deploy.sh",
@@ -29,6 +29,7 @@
   "dependencies": {
     "ali-oss": "^6.17.1",
     "caniuse-lite": "^1.0.30001247",
+    "cross-env": "^7.0.3",
     "nrm": "^1.2.1",
     "p-queue": "^7.3.0",
     "readdirp": "^3.6.0",
