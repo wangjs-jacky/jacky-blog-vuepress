@@ -407,6 +407,31 @@ module.exports = [
           },
         ],
       },
+      {
+        text: "购物车",
+        items: [
+          {
+            text: "张鑫旭-技术写作指南",
+            link:
+              "https://juejin.cn/book/7184663814950879270?utm_source=course_list",
+          },
+          {
+            text: "深入剖析 Node.js 底层原理",
+            link:
+              "https://juejin.cn/book/7171733571638738952?utm_source=course_list",
+          },
+          {
+            text: "前端开发者的现代 C++ 课",
+            link:
+              "https://juejin.cn/book/7174425017277972513?utm_source=course_list",
+          },
+          {
+            text: "从前端到全栈",
+            link:
+              "https://juejin.cn/book/7133100888566005763?utm_source=course_list",
+          },
+        ],
+      },
     ],
     /* items: [{ text: "网站", link: "/pages/5f8056/" }], */
   },
