@@ -100,6 +100,10 @@ module.exports = [
         items: [
           { text: "GIT-教程", link: "/pages/5857b5/" },
           {
+            text: "NPM SCRIPTS-工作流",
+            link: "https://www.mubucm.com/doc/Hyev_EiYsY",
+          },
+          {
             text: "DOCKER-教程",
             link: "https://www.mubucm.com/doc/jZ6j8HMYWY",
           },
@@ -122,7 +126,7 @@ module.exports = [
       {
         text: "指令",
         items: [
-          { text: "NPM 指令", link: "/pages/6a6b62/" },
+          { text: "NPM 指令", link: "https://www.mubucm.com/doc/2GceFJcCqs" },
           { text: "NVM 指令", link: "https://www.mubucm.com/doc/OoflbXC2iY" },
           { text: "Nginx 指令", link: "https://www.mubucm.com/doc/7MFCsK2QGY" },
           { text: "YARN 指令", link: "https://www.mubucm.com/doc/OgdY8V6GQk" },
