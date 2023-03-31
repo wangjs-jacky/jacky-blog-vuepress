@@ -16,6 +16,16 @@ module.exports = [
     ],
   },
   {
+    text: "百问掘金",
+    link: "/hundred/",
+    items: [
+      {
+        text: "深入浅出 Vite",
+        link: "/pages/ee37ba/",
+      },
+    ],
+  },
+  {
     text: "重点技术",
     link: "/vital/",
     items: [
