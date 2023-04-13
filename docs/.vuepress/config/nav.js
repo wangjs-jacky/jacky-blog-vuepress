@@ -1,20 +1,6 @@
 module.exports = [
   { text: "首页", link: "/" },
-  {
-    text: "技术随笔",
-    link: "/essays/",
-    items: [
-      {
-        text: "前端学习计划",
-        link: "https://www.notion.so/f976f43adc754ac5a2f4e9a520667e28",
-      },
-      { text: "技术随笔", link: "/pages/004a81/" },
-      { text: "转载文章", link: "/pages/850fc5/" },
-      { text: "包管理工具", link: "/pages/09f388/" },
-      { text: "前端学习周报", link: "/pages/f0b0f3/" },
-      { text: "VSCode插件", link: "/pages/11ef97/" },
-    ],
-  },
+
   {
     text: "百问掘金",
     link: "/hundred/",
@@ -22,6 +8,10 @@ module.exports = [
       {
         text: "深入浅出 Vite",
         link: "/pages/ee37ba/",
+      },
+      {
+        text: "快速上手API",
+        link: "/pages/6d644d/",
       },
     ],
   },
@@ -77,6 +67,21 @@ module.exports = [
       { text: "双指针", link: "/pages/f1dc31/" },
       { text: "递归", link: "/pages/2d7b1e/" },
       { text: "数据结构", link: "/pages/2b0af8/" },
+    ],
+  },
+  {
+    text: "技术随笔",
+    link: "/essays/",
+    items: [
+      {
+        text: "前端学习计划",
+        link: "https://www.notion.so/f976f43adc754ac5a2f4e9a520667e28",
+      },
+      { text: "技术随笔", link: "/pages/004a81/" },
+      { text: "转载文章", link: "/pages/850fc5/" },
+      { text: "包管理工具", link: "/pages/09f388/" },
+      { text: "前端学习周报", link: "/pages/f0b0f3/" },
+      { text: "VSCode插件", link: "/pages/11ef97/" },
     ],
   },
   {
