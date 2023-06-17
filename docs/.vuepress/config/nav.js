@@ -40,8 +40,8 @@ module.exports = [
         items: [{ text: "组件库", link: "/pages/b62cdd/" }],
       },
       {
-        text: "前端部署系列",
-        items: [{ text: "前端部署", link: "" }],
+        text: "开发工具",
+        items: [{ text: "Vscode 插件", link: "/pages/06f87g/" }],
       },
     ],
   },
