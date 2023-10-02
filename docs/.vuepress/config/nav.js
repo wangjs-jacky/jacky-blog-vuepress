@@ -6,12 +6,24 @@ module.exports = [
     link: "/hundred/",
     items: [
       {
+        text: "编码专题",
+        link: "/pages/1d2df0/",
+      },
+      {
         text: "深入浅出 Vite",
         link: "/pages/ee37ba/",
       },
       {
+        text: "深入浅出 babel",
+        link: "/pages/295f39/",
+      },
+      {
         text: "快速上手API",
         link: "/pages/6d644d/",
+      },
+      {
+        text: "深入浅出 react",
+        link: "/pages/c9bf2f/",
       },
     ],
   },
@@ -87,7 +99,11 @@ module.exports = [
   {
     text: "编码专题",
     link: "/code/",
-    items: [{ text: "Promise专题", link: "/pages/2dd33c/" }],
+    items: [
+      { text: "Promise 专题", link: "/pages/b25375/" },
+      { text: "函数技巧", link: "/pages/10a1dc/" },
+      { text: "React 专题", link: "/pages/1d2df0/" }
+    ],
   },
   {
     text: "CheetSheet",
@@ -229,6 +245,18 @@ module.exports = [
           {
             text: "MDN",
             link: "https://developer.mozilla.org/zh-CN/",
+          },
+          {
+            text: "CAN I USE",
+            link: "https://caniuse.com/",
+          },
+          {
+            text: "TYPESCRIPT-ESLint-RULES",
+            link: "https://typescript-eslint.io/rules/adjacent-overload-signatures/",
+          },
+          {
+            text: "ESLint-RULES",
+            link: "https://eslint.org/docs/latest/rules/no-use-before-define",
           },
           {
             text: "FRONT-END TREND",
