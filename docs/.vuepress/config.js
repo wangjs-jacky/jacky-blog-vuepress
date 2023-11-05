@@ -4,11 +4,11 @@ const isServer = process.env.NODE_ENV !== "development";
 
 const modifyWebpack = isServer
   ? {
-      configureWebpack: config => {
-        config.output.publicPath =
-          "https://cdn-pic-wjs.oss-cn-shanghai.aliyuncs.com/";
-      },
-    }
+    configureWebpack: config => {
+      config.output.publicPath =
+        "https://cdn-pic-wjs.oss-cn-shanghai.aliyuncs.com/";
+    },
+  }
   : {};
 
 module.exports = {
@@ -89,7 +89,7 @@ module.exports = {
     blogger: {
       // 博主信息，显示在首页侧边栏
       avatar:
-        "https://wjs-tik.oss-cn-shanghai.aliyuncs.com/202301311339589.jpg",
+        "https://vblog-img.oss-cn-shanghai.aliyuncs.com/jacky-blog-vuepress/202311051600972.png",
       name: "Jacky Wang",
       slogan: "行到水穷处，坐看云起时",
     },
